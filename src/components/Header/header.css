@@ -158,6 +158,10 @@ a {
       display: none;
   }
 
+  .mobile-nav {
+    display: none;
+  }
+
 @media all and (max-width:600px) {
     
    .header-left {
@@ -177,6 +181,10 @@ a {
   padding-right: 22%;
   padding-top: 2%;
   padding-bottom: 2%;
+  }
+
+  .mobile-nav {
+    display: inline-block;
   }
 
   header {
