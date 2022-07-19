@@ -1,0 +1,24 @@
+
+
+.skill-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+}
+
+.img-skill {
+    width: 100px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-color:rgba(112, 110, 110, 0.548);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}

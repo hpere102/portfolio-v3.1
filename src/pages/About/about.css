@@ -1,0 +1,183 @@
+element {
+    --primary-color: rgb(27, 27, 27);
+    --secondary-color: blanchedalmond;
+  }
+
+main {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
+
+.intro {
+    width: 100%;
+    background-color: rgba(58, 56, 56, 0.548);
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+}
+
+.bio-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.picture-cont {
+    margin-left: 20px;
+}
+
+
+.avi-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.about-cont {   
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-color:rgba(112, 110, 110, 0.548);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+
+
+.work-link {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(22, 190, 190);
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 7px;
+    width: fit-content;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.work-link:hover {
+    opacity: 90%;
+}
+
+.bio-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-body-title {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-color: rgba(112, 110, 110, 0.548);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+
+.fact-cont {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    
+}
+
+.year {
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 20px ;
+    font-style: oblique;
+}
+
+
+.facts {
+    margin-bottom: 0px;
+}
+
+.facts-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-color: rgba(129, 129, 129, 0.548);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.socials-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: rgb(241, 98, 210);
+    padding: 7px;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.social-link:hover {
+    background-color: rgba(196, 79, 171, 0.164);
+}
+
+.bi-github {
+    margin-right: 10px;
+}
+
+.bi-linkedin {
+    margin-right: 10px;
+}
+
+.bi-twitter {
+    margin-right: 10px;
+}
+
+.bi-envelope-fill {
+    margin-right: 10px;
+}
+
+@media all and (max-width:600px) {
+    
+   main {
+       margin-left: 12%;
+       margin-right: 12%;
+   }
+
+}

@@ -1,0 +1,66 @@
+main {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+
+.work-title {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-color:rgba(112, 110, 110, 0.548);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+.bi-globe2 {
+    margin-right: 10px;
+}
+
+.img-size {
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+    
+}
+.card-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+}
+.work-card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    
+   
+}
+
+.info-cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.work-link-cont {
+    display: flex;
+    gap: 10px;
+}
+
+.work-name {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.work-desc {
+    font-style: oblique;
+}
+
